@@ -2,6 +2,9 @@
 #  Algunos comandos útiles de GIT
 
 
+##  TAGS (releases)
+
+
 Vista de arbol de commits y tags en consola:
 
 ```
@@ -20,4 +23,9 @@ Muestra las releases:
 
 ```
 git tab -l
+```
+
+Tags que contienen este commit:
+```
+git tag --contains 813d21e118eebf184fc6eb7667872b1eaeb9c86a
 ```
